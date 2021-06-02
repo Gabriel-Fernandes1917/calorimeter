@@ -20,11 +20,12 @@ a{
 } 
 
 
-.button{
+.ButtonOptions{
 
     width: 100px;
     height: 100px;
-
+    background: url(../IMG/run.jpeg);
+    
 
 }   
 
@@ -32,5 +33,27 @@ a{
 
     width: 100px;
     height: 100px;
+
+}
+
+.ResulWord{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left; 
+
+}
+
+/* options li*/
+
+.ul{
+    list-style: none;
+    display: flex;
+     
+}
+
+.option{
+    list-style: none;
+    cursor: pointer;
 
 }

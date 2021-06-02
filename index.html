@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,35 @@
     <title>Calorimeter</title>
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
+
 <body>
     <h3>Your weight Kg</h3>
-    <input type="number" name="weight" id="user-weight">
+    <input name="weight" id="user-weight">
     <h3>Your goal weight Kg</h3>
-    <input type="number" name="objet-user" id="goal-weight">
+    <input  name="objet-user" id="goal-weight">
     <input type="button" value="calculer" onclick="call()">
     <!--<input type="button" value="test" onclick="retorno()"> -->
     <br>
     <h3>You need loss <output id="output"></output> Kg</h3>
+
+    <p class="word"> Choice one option the exercise</p>
+    <!--options the exercise-->
+    <nav class="nav">
+        <ul class="ul">
+            <li class="option">
+                <button class="ButtonOptions" onclick="ExerciseRun()" />
+            </li>
+            <li class="option">
+                <button class="ButtonOptions" onclick="ExerciseRun()" />
+            </li>
+        </ul>
+    </nav>
     
-    <p class="word"> Choice one option the exercise</p>    
-    <button class="button" style="background: url(assets/IMG/run.jpeg)" ... />
-    
+    <br>
+
+    <p class="ResulWord">You need to exercise to <output id="ResulTheExercise"> </output> hours with this exercise</p>
+
 </body>
-    <script src="assets/JS/main.js"></script>
+<script src="assets/JS/main.js"></script>
+
 </html>
