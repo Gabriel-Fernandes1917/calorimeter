@@ -31,7 +31,31 @@ function call(UserWeight){
 function ExerciseRun(){
    //250 cal to  hour 
    //alert(resul);
-   ResulExercise = Number(resul*7700)/250;
+   ResulExercise = Number((resul*7700)/250);
+   //alert("You need run to "+ResulExercise+" hours");
+   
+   document.querySelector('#ResulTheExercise').innerHTML = ResulExercise;
+   
+
+}
+
+
+function ExerciseSwi(){
+   //350 cal to  hour 
+   //alert(resul);
+   ResulExercise = Number((resul*7700)/350);
+   //alert("You need run to "+ResulExercise+" hours");
+   
+   document.querySelector('#ResulTheExercise').innerHTML = ResulExercise;
+   
+
+}
+
+
+function ExerciseBike(){
+   //350 cal to  hour 
+   //alert(resul);
+   ResulExercise = Number((resul*7700)/500);
    //alert("You need run to "+ResulExercise+" hours");
    
    document.querySelector('#ResulTheExercise').innerHTML = ResulExercise;
