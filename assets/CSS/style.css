@@ -18,6 +18,19 @@ body{
     padding: 10px;
 }
 
+.header>a{
+
+    margin-left: 95%;
+    margin-top: -10px;
+
+}
+
+.language{
+    width: 20px;
+    height: 20px;
+    
+}
+
 .field{
     margin-left: 40%;
 }
@@ -96,6 +109,13 @@ a{
     
 .field{
     margin-left: 10%;
+}
+
+.header>a{
+
+    margin-left: 85%;
+    margin-top: -10px;
+
 }
 
 }
