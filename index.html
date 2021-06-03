@@ -12,35 +12,43 @@
 </head>
 
 <body>
-    <h3>Your weight Kg</h3>
-    <input name="weight" id="user-weight">
-    <h3>Your goal weight Kg</h3>
-    <input  name="objet-user" id="goal-weight">
-    <input type="button" value="calculer" onclick="call()">
-    <!--<input type="button" value="test" onclick="retorno()"> -->
-    <br>
-    <h3>You need loss <output id="output"></output> Kg</h3>
+    <header class="header">
+        <H1 class="logo">Calorimeter</H1>
+    </header>
+    <div class="field">
+        <h3>Your weight Kg</h3>
+        <input name="weight" id="user-weight">
+        <h3>Your goal weight Kg</h3>
+        <input  name="objet-user" id="goal-weight">
+        <input type="button" value="calculer" onclick="call()">
+        <!--<input type="button" value="test" onclick="retorno()"> -->
+        <br>
+        <h3>You need loss <output id="output"></output> Kg</h3>
 
-    <p class="word"> Choice one option the exercise</p>
-    <!--options the exercise-->
-    <nav class="nav">
-        <ul class="ul">
-            <li class="option">
-                <button class="ButtonOptions" onclick="ExerciseRun()" style="background: url(assets/IMG/run.jpeg);" />
-            </li>
-            <li class="option">
-                <button class="ButtonOptions" onclick="ExerciseBike()" style="background: url(assets/IMG/bike2.jpg);" />
-            </li>
-            <li class="option">
-                <button class="ButtonOptions" onclick="ExerciseSwi()" style="background: url(assets/IMG/nadando2.jpg);" />
-            </li>
-        </ul>
-    </nav>
-    
-    <br>
+        <p class="word"> Choice one option the exercise</p>
+        <!--options the exercise-->
+        <nav class="nav">
+            <ul class="ul">
+                <li class="option">
+                    <button class="ButtonOptions" onclick="ExerciseRun()" style="background: url(assets/IMG/run.jpeg);" />
+                </li>
+                <li class="option">
+                    <button class="ButtonOptions" onclick="ExerciseBike()" style="background: url(assets/IMG/bike2.jpg);" />
+                </li>
+                <li class="option">
+                    <button class="ButtonOptions" onclick="ExerciseSwi()" style="background: url(assets/IMG/nadando2.jpg);" />
+                </li>
+            </ul>
+        </nav>
+        
+        <br>
 
-    <p class="ResulWord">You need to exercise to <output id="ResulTheExercise"> </output> hours with this exercise</p>
+        <p class="ResulWord">You need to exercise to <output id="ResulTheExercise"> </output> hours with this exercise</p>
+    </div>
 
+    <footer class="footer">
+        <p>This Web site was maked by GeGi.</p> <a href="https://github.com/Gabriel-Fernandes1917"><img src="assets/IMG/github.png" alt="GitHub" class="ImgFooter"></a>
+    </footer>
 </body>
 <script src="assets/JS/main.js"></script>
 

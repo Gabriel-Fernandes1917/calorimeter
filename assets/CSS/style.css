@@ -8,6 +8,20 @@ body{
 
 }
 
+.header{
+    background-color: darkgray;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.field{
+    margin-left: 40%;
+}
+
 a{
    text-decoration: none;
    list-style: none;
@@ -57,3 +71,39 @@ a{
     cursor: pointer;
 
 }
+
+.footer{
+    width: 100%;
+    background-color: darkgray;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer >p{
+    padding: 5px;
+
+}
+
+.ImgFooter{
+    width: 20px;
+    height: 20px;
+}
+
+/*smartphone */
+
+@media(max-width: 480px){
+    
+.field{
+    margin-left: 10%;
+}
+
+}
+
+@media(max-width: 320px){
+    
+    .field{
+        margin-left: 4%;
+    }
+    
+    }
